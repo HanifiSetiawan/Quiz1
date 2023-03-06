@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url(https://wallpaperaccess.com/full/639196.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #1f70cc;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content p{
+    height: auto;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    opacity: 50%;
+}
+
+.Profile{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+    background-size: cover;
+    background-position: center;
+}
+
+.Profile img{
+    height: auto;
+    width: 430px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 3px solid white;
+}
+
+.Profile-text{
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+}
+
+.main h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.main p{
+    color:#fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.Contact{
+    color:#fff;
+    font-size: 14px;
+    width: 85%;
+    font-weight: 300;
+    line-height: 22px;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Contact ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.Contact ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.Contact ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #1f70cc;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.Contact ul li:hover::after{
+    width: 100%;
+}
+
+.About-Jakarta{
+    width: 100%;
+    padding: 200px 0px;
+    background-color: #191919;
+    background-size: cover;
+    background-position: center;
+}
+
+.About-Jakarta img{
+    height: auto;
+    width: 430px;
+    border: 1px solid white;
+}
+
+.jakarta-text{
+    width: 550px;
+}
+
+.jakarta{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.jakarta-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.jakarta-text p{
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.Local-food{
+    background: #101010;
+    width: 100%;
+    padding: 120px 0px;
+}
+
+.Food-title{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.food-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.food-box img{
+    height: auto;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.food-card{
+    height: 450px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.food-card p{
+    color: rgba(115, 171, 218, 0.8);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.Food-title p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.Tourist-place{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.Tourist-title{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.Tourist-title p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.tourist-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.tourist-box img{
+    height: auto;
+    width: 200px;
+}
+
+.tourist-card{
+    height: 500px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.tourist-card p{
+    color: rgba(115, 171, 218, 0.8);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
